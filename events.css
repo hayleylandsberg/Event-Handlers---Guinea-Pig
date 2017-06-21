@@ -14,10 +14,15 @@
 	border-radius: 5px;
 }
 
-/*// The first section's text should be bold.
-// The last section's text should be bold and italicized.
-// Make the buttons stop appearing next to each other as inline elements. Change them into block elements.*/
+section:first-of-type {
+	font-weight: bold;
+}
 
-articleEl[0].msg {
-	background-color: red;
+section:last-of-type {
+	font-weight: bold;
+	font-style: italic;
+}
+
+button {
+	display: block;
 }
